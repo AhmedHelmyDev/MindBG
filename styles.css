@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header.header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 30px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.upload-section, .results-section {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.upload-box {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.file-drop-zone {
+    border: 2px dashed #4a90e2;
+    border-radius: 10px;
+    padding: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.file-drop-zone:hover {
+    background-color: #f0f8ff;
+}
+
+.upload-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+    background-color: #357ABD;
+}
+
+.image-preview-box {
+    margin-top: 20px;
+}
+
+.image-preview {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Results Section */
+.results-section .image-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    text-align: center;
+    width: 48%;
+    max-width: 800px;
+}
+
+.image-result {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #357ABD;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .image-container {
+        width: 100%;
+    }
+}
